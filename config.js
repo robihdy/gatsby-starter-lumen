@@ -3,8 +3,9 @@
 module.exports = {
   url: 'https://lumen.netlify.com',
   pathPrefix: '/',
-  title: 'Blog by John Doe',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+  title: 'Blog by Robi Hidayat',
+  subtitle:
+    "I'm a computer science student and software engineer specializing in backend development. I generally work with Go and Javascript.",
   copyright: '© All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,
@@ -25,25 +26,25 @@ module.exports = {
     }
   ],
   author: {
-    name: 'John Doe',
-    photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    name: 'Robi Hidayat',
+    bio:
+      "I'm a computer science student and software engineer specializing in backend development. I generally work with Go and Javascript.",
     contacts: {
       email: '',
-      facebook: '#',
-      telegram: '#',
-      twitter: '#',
-      github: '#',
+      facebook: '',
+      telegram: '',
+      twitter: '',
+      github: 'robihdy',
       rss: '',
       vkontakte: '',
-      linkedin: '#',
-      instagram: '#',
+      linkedin: 'robihdy',
+      instagram: 'robihdy',
       line: '',
       gitlab: '',
       weibo: '',
       codepen: '',
       youtube: '',
-      soundcloud: '',
+      soundcloud: ''
     }
   }
 };
