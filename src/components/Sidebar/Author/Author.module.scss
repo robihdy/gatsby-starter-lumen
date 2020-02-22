@@ -6,6 +6,7 @@
     display: inline-block;
     margin-bottom: 0;
     border-radius: 50%;
+<<<<<<< HEAD
     background-clip: padding-box;
   }
 
@@ -14,20 +15,45 @@
     font-weight: 600;
     @include line-height(2);
     @include margin(0.5, 0, 0.5, 0);
+=======
+    background-clip: padding-box
+  }
+
+  &__title {
+    font-size: $typographic-base-font-size * 1.125;
+    font-weight: 600;
+    @include line-height(1.125);
+    @include margin(.5, 0, .5, 0);
+>>>>>>> 459e90851d03195f019b1301e7afc789a8a229c1
 
     &-link {
       color: $color-base;
 
       &:hover,
       &:focus {
+<<<<<<< HEAD
         color: $color-base;
       }
     }
+=======
+        color: $color-base
+      }
+
+    }
+
+>>>>>>> 459e90851d03195f019b1301e7afc789a8a229c1
   }
 
   &__subtitle {
     color: $color-gray;
     @include line-height(1);
+<<<<<<< HEAD
     @include margin-bottom(1);
   }
 }
+=======
+    @include margin-bottom(1)
+  }
+
+}
+>>>>>>> 459e90851d03195f019b1301e7afc789a8a229c1
