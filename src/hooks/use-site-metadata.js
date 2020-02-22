@@ -10,18 +10,10 @@ const useSiteMetadata = () => {
             author {
               name
               bio
-<<<<<<< HEAD
               contacts {
                 facebook
                 github
                 linkedin
-=======
-              photo
-              contacts {
-                facebook
-                linkedin
-                github
->>>>>>> 459e90851d03195f019b1301e7afc789a8a229c1
                 twitter
                 telegram
                 instagram
