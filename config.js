@@ -5,30 +5,30 @@ module.exports = {
   pathPrefix: '/',
   title: 'Blog by Robi Hidayat',
   subtitle:
-    "I'm a computer science student and software engineer specializing in backend development. I generally work with Go and Javascript.",
+    "I'm a computer science student and software engineer specializing in backend development. I generally work with Go and TypeScript.",
   copyright: '© All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,
-  googleAnalyticsId: 'UA-73379983-2',
+  googleAnalyticsId: '',
   useKatex: false,
   menu: [
     {
       label: 'Articles',
-      path: '/'
+      path: '/',
     },
     {
       label: 'About me',
-      path: '/pages/about'
+      path: '/pages/about',
     },
     {
       label: 'Contact me',
-      path: '/pages/contacts'
-    }
+      path: '/pages/contacts',
+    },
   ],
   author: {
     name: 'Robi Hidayat',
     bio:
-      "I'm a computer science student and software engineer specializing in backend development. I generally work with Go and Javascript.",
+      "I'm a computer science student and software engineer specializing in backend development. I generally work with Go and TypeScript.",
     contacts: {
       email: '',
       facebook: '',
@@ -44,7 +44,7 @@ module.exports = {
       weibo: '',
       codepen: '',
       youtube: '',
-      soundcloud: ''
-    }
-  }
+      soundcloud: '',
+    },
+  },
 };
